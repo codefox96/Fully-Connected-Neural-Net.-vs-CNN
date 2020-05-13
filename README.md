@@ -1,5 +1,5 @@
 # Fully-Connected-Neural-Net.-vs-CNN
-Running accuracy tests for 3 different methods for setting up the learning model to see which works best for image processing using the cifar10 dataset.
+What's Happening: Running accuracy tests for 3 different ways of setting up a learning model to see which works best for image processing using the cifar10 dataset.
 
 -The first model is your standard fully connected layer. However, since images are a bit larger than what is preferered I needed to scale them in order to reduce their size without compromising their integrity. I then shuffled the dataset in an attempt to combat any sort of fitting issues, flattened the images into a single vector for ease of use, and created a confusion matrix for the actual classification. Lastly, the learning model is created.
 
